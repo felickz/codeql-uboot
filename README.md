@@ -11,3 +11,10 @@ This repository is licensed under [MIT](../LICENSE) (c) 2020 GitHub, Inc.
 To run in Codespace
 1. Open folder vscode-codeql-starter
 1. Download this into QL extension: https://downloads.lgtm.com/snapshots/cpp/uboot/u-boot_u-boot_cpp-srcVersion_d0d07ba86afc8074d79e436b1ba4478fa0f0c1b5-dist_odasa-2019-07-25-linux64.zip
+
+Submit PRs
+1.  git pull
+1.  git checkout -b step-5
+1.  git commit -am "step5"    
+1.  git push -u origin step-5
+1.  gh pr create --fill
