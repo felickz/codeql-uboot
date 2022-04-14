@@ -1,6 +1,6 @@
 name: Check Queries
 
-on: [push]
+on: [push, workflow_dispatch]
 
 jobs:
   check-answers:
